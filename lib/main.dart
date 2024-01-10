@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttter_admin_dash/widgets/layout.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         }),
         primaryColor: Colors.blue
       ),
-      home: Container(),
+      home: SiteLayout()
     );
   }
 }
